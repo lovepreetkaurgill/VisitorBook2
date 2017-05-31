@@ -99,7 +99,7 @@ public class AdminloginActivity extends AppCompatActivity {
                 Toast.makeText(this, "Please correct Input", Toast.LENGTH_LONG).show();
             }
         }else{
-            if(view.getId()==R.id.forgotpasswordg){
+            if(view.getId()==R.id.forgotpassworda){
                 Intent i = new Intent(AdminloginActivity.this,AdminForgetPasswordActivity.class);
                 startActivity(i);
 

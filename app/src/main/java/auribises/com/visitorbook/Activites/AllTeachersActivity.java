@@ -101,9 +101,9 @@ public class AllTeachersActivity extends AppCompatActivity implements AdapterVie
 
     void Teacher() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Logout ");
-        builder.setMessage("Do you wish to Logout?");
-        builder.setPositiveButton("Finish", new DialogInterface.OnClickListener() {
+        builder.setTitle("Activity Finish");
+        builder.setMessage("Do you wish to Finish?");
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent = new Intent();

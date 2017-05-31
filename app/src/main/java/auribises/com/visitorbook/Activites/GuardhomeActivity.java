@@ -48,9 +48,9 @@ public class GuardhomeActivity extends AppCompatActivity {
 
     void Guardhome() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Logout ");
+        builder.setTitle("Logout");
         builder.setMessage("Do you wish to Logout?");
-        builder.setPositiveButton("Finish", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent = new Intent();
