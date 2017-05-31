@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context="auribises.com.visitorbook.Activites.GuardhomeActivity">
+
+    <Button
+        android:id="@+id/buttonAdminEntryGuard"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:text="Admin_VisitorEntry"
+        android:textSize="28dp"
+        android:background="@drawable/circle"
+        android:textColor="@color/white"
+        android:onClick="onClickHandler"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        android:layout_marginBottom="67dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTeacherEntryGuard" />
+
+    <Button
+        android:id="@+id/buttonTeacherEntryGuard"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:text="Teacher_VisitorEntry"
+        android:textSize="28dp"
+        android:background="@drawable/circle"
+        android:textColor="@color/white"
+        android:onClick="onClickHandler"
+        android:layout_marginBottom="63dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVehicle" />
+
+    <Button
+        android:id="@+id/buttonVehicle"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:text="Vehicle Entry"
+        android:textSize="28dp"
+        android:background="@drawable/circle"
+        android:textColor="@color/white"
+        android:onClick="onClickHandler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="126dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.555" />
+
+</android.support.constraint.ConstraintLayout>

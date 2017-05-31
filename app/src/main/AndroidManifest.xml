@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="auribises.com.visitorbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/visitorbook"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activites.SplashActivity">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activites.VehicleActivity" />
+        <activity android:name=".Activites.AllVehicleActivity" />
+        <activity android:name=".Activites.AllTeachersActivity" />
+        <activity android:name=".Activites.TeacherActivity" />
+        <activity android:name=".Activites.VisitorEntryActivity" />
+        <activity android:name=".Activites.AdminEntryActivity" />
+        <activity android:name=".Activites.AllAdminentryActivity" />
+        <activity android:name=".Activites.AllVisitorentryActivity" />
+        <activity android:name=".Activites.TeacherloginActivity" />
+        <activity android:name=".Activites.GuardActivity" />
+        <activity android:name=".Activites.AdminappointmentActivity" />
+        <!-- <activity android:name=".Activites.AdminloginActivity" /> -->
+        <activity android:name=".Activites.Visitor1Activity" />
+        <activity android:name=".Activites.Teacher1Activity" />
+        <activity android:name=".Activites.Vehicle1Activity" />
+        <!-- <activity android:name=".Activites.AdminappointmentActivity" /> -->
+        <activity android:name=".Activites.Alladmin_appointmentActivity" />
+        <!-- <activity android:name=".Activites.HomeActivity"></activity> -->
+        <activity android:name=".Activites.GuardloginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".Activites.GuardvehicleActivity" /> -->
+        <activity android:name=".Activites.GuardhomeActivity" />
+        <activity android:name=".Activites.AdminloginActivity" />
+        <!-- <activity android:name=".Activites.AllGuardRegisterActivity" /> -->
+        <activity android:name=".Activites.RegisterGuardActivity" />
+        <activity android:name=".Activites.AllGuardRegisterActivity" />
+        <activity android:name=".Activites.AllAdminRegisterActivity" />
+        <activity android:name=".Activites.RegisterTeacherActivity" />
+        <activity android:name=".Activites.AllTeacherRegisterActivity" />
+        <activity android:name=".Activites.RegisterAdminActivity" />
+        <activity android:name=".Activites.HomeActivity" />
+        <activity android:name=".Activites.TeacherForgetPasswordActivity" />
+        <activity android:name=".Activites.GuardChangePasswordActivity" />
+        <activity android:name=".Activites.TeacherChangePasswordActivity" />
+        <activity android:name=".Activites.AdminForgetPasswordActivity" />
+        <activity android:name=".Activites.GuardForgetPasswordActivity" />
+        <activity android:name=".Activites.AdminChangePasswordActivity" />
+        <activity android:name=".Activites.TeacherhomeActivity" />
+        <activity android:name=".Activites.Admin1Activity"></activity>
+    </application>
+
+</manifest>
